@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="notes.xsl"?>
+<record>
+!-- Article or Book Section Title
+<a_title></a_title>
+!-- Article or Book Section Author
+<author></author>
+!-- Journal or Book Title
+<title></title>
+<year></year>
+<volume></volume>
+<issue></issue>
+<p_start></p_start>
+<p_end></p_end>
+
+<notes>
+
+!-- Form is either argument (whole text), assertion (specific point), evidence or definition
+!-- Ref is the assertion reference. Use a number to define a group with an assertion, evidences and definitions
+!-- Type is p (paraphrase), q (direct quotation, no ""s), s (combination of paraphrase and own thoughts)
+!-- Pg is the page or page range of the note, from the article itself. 
+!-- Cites, notes citation given by author. No ()s needed
+
+<note form="assertion" ref="1" type="p" pg="44-42" cites="Beals, 2015">Test Note</note>
+
+</notes>
+</record>
