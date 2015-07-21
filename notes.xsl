@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html" version="4.0" encoding="UTF-8"/>
-
-!-- The Main Transformation
-
+<xsl:key name="groups" match="notes/note" use="@cites"/>
 <xsl:template match="record">
+<!-- The Main Transformation-->
 <html>
   <body>
     <h2><xsl:value-of select="author"/>, <xsl:if test="a_title !=''">"<xsl:value-of select="a_title"/>", </xsl:if> <i><xsl:value-of select="title"/></i>&#160;<xsl:if test="city !=''">
@@ -13,6 +11,13 @@
     </xsl:if><xsl:value-of select="volume"/>:<xsl:value-of select="issue"/>
     <xsl:if test="city =''">(<xsl:value-of select="year"/>)</xsl:if><xsl:if test="p_start !=''">, pp. <xsl:value-of select="p_start"/>-<xsl:value-of select="p_end"/></xsl:if>.</h2>
     <ul><xsl:for-each select="notes"><xsl:apply-templates select="."/></xsl:for-each></ul>
+    <h3>Citation List</h3>
+    <ul>
+      <xsl:for-each select="notes/note[count(. | key('groups', @cites)[1]) = 1]">
+    		<xsl:sort select="@cites" />
+    		<xsl:if test="@cites !=''"><li><xsl:value-of select="@cites" /></li></xsl:if>
+    	</xsl:for-each>
+    </ul>
 </body>
 </html>
 </xsl:template>
@@ -61,7 +66,6 @@
 <li><font style="color:green;"><xsl:value-of select="."/>  (pp. <xsl:value-of select="@pg"/>) <xsl:if test="@cites !=''">via (<xsl:value-of select="@cites"/>)</xsl:if></font></li>
 </xsl:template>
 
-
 !-- Styles all definitions with a white circle bullet, placing quotations in blue and syntheses of article-text and note-taker thoughts in green
 
 <xsl:template match="note[@form='definition' and @type='p']">
@@ -72,6 +76,18 @@
 </xsl:template>
 <xsl:template match="note[@form='definition' and @type='s']">
 <li style="list-style-type:circle;"><font style="color:green;"><xsl:value-of select="."/></font> (pp. <xsl:value-of select="@pg"/>) <xsl:if test="@cites !=''"> via (<xsl:value-of select="@cites"/>)</xsl:if></li>
+</xsl:template>
+
+!-- Styles all methodologies with a square, placing quotations in blue and syntheses of article-text and note-taker thoughts in green
+
+<xsl:template match="note[@form='methodology' and @type='p']">
+  <li style="list-style-type:square;"><xsl:value-of select="."/> (pp. <xsl:value-of select="@pg"/>) <xsl:if test="@cites !=''">via (<xsl:value-of select="@cites"/>)</xsl:if></li>
+</xsl:template>
+<xsl:template match="note[@form='methodology' and @type='q']">
+  <li style="list-style-type:square;"><font style="color:blue;">"<xsl:value-of select="."/>"</font> (pp. <xsl:value-of select="@pg"/>) <xsl:if test="@cites !=''">via (<xsl:value-of select="@cites"/>)</xsl:if></li>
+</xsl:template>
+<xsl:template match="note[@form='methodology' and @type='s']">
+<li style="list-style-type:square;"><font style="color:green;"><xsl:value-of select="."/></font> (pp. <xsl:value-of select="@pg"/>) <xsl:if test="@cites !=''"> via (<xsl:value-of select="@cites"/>)</xsl:if></li>
 </xsl:template>
 
 </xsl:stylesheet>
