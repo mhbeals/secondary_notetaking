@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="notes.xsl"?>
+<record>
+  <a_title>Instructional Design Models for Well-Structured and Ill-Structured Problem-Solving Learning Outcomes</a_title>
+  <author>David H. Jonassen</author>
+  <title>Educational Technology Research and Development</title>
+  <year>1997</year>
+  <volume>45</volume>
+  <issue>1</issue>
+  <p_start>65</p_start>
+  <p_end>94</p_end>
+  <notes>
+    <note form="argument" pg="65" type="p">The paper presents models for how learners solve both well and poorly structured problems</note>
+    <note form="assertion" pg="65" ref="1" type="q">Well-structured problems are constrained problems with convergent solutions that engage the applications of a limited number of rules and principles within well-defined parameters. Ill-structured problems possess multiple solutions, solution paths,
+      fewer parameters which are less manipulable, and contain uncertainty about which concepts, rules, and principles are necessary for the solution or how they are organized and which solution is best.</note>
+    <note form="assertion" pg="65" ref="2" type="q">Traditional, hierarchical models of learning and instructional design have assumed that problem solving is composed of building blocks, such as concepts, rules, and principles, that are called on by learners when faced with a problem.</note>
+    <note cites="Gange, 1985" form="evidence" pg="65" ref="2" type="p">Gange considered problem solving as the combition of other rules.</note>
+    <note form="evidence" pg="65" ref="2" type="p">Bloom's taxonomy designed for text outcomes, not learning outcomes.</note>
+    <note cites="Merrill, 1983" form="evidence" pg="65" ref="2" type="q">Component display theory does not acknowledge problem solving, so we must infer that it includes "using" and "finding" rules and principles.</note>
+    <note form="assertion" pg="65-6" ref="3" type="p">Problem solving is more than the sum of its parts, including domain and structural knowledge and ampliative and metacognitive skills</note>
+    <note form="definition" pg="65" ref="3" type="q">domain knowledge: propositional information, concepts, rules and principles</note>
+    <note form="definition" pg="65-6" ref="3" type="q">structural knowledge: information networking, semantic mapping, conceptual networking and mental models</note>
+    <note form="definition" pg="66" ref="3" type="q">ampliative skills: constructing/applying arguments, analogizing, and ingerencing</note>
+    <note form="definition" pg="66" ref="3" type="q">metacognitive skills: goal setting, allocaitng cognitive resources, assessing prior knowledge, assessing progress/error checking</note>
+    <note form="definition" pg="66" ref="3" type="q">motivational/attitudinal components: exterting effort, persisting on task, engaging intentionally</note>
+    <note form="definition" pg="66" ref="3" type="q">knowledge about self: articulting prior knowledge, articulating sociocultural knowledge, articulating personal strategies, and articulating cognitive prejudices/weakness</note>
+    <note form="assertion" pg="66" ref="4" type="p">Problem-based learning requires different support than rule-based learning</note>
+    <note cites="Bransford, 1994" form="evidence" pg="66" ref="4" type="p">Instructional designs for well-structured problems are rooted in information processing theory (learning outcomes as generalisable skills) while instructional designs for ill-structured problems necessarily borrow assumptions and methods from
+      constructivism and situated cognition (problem solving is domain and context-dependent).
+    </note>
+    <note form="assertion" pg="67" ref="5" type="q">Problems are traditionally defined by a problem *domain*, a problem *type*, a problem-solving *process*, and a solution.</note>
+    <note form="definition" pg="67" ref="5" type="p">Problem domain: concepts, rules and principles that define the problem</note>
+    <note form="definition" pg="67" ref="5" type="p">Problem type: the comination of concepts, rules and prodcedures</note>
+    <note form="definition" pg="67" ref="5" type="p">Problem-solving process: the movement from the initial to the goal state; comprised of the *space*, or operators and states, and *schema*, or problem representations</note>
+    <note form="definition" pg="68" ref="5" type="p">Problem solution: the goal of the problem solver</note>
+    <note cites="Sweller, 1988" form="assertion" pg="67-8" ref="6" type="p">Over time, students create more detailed schemas that can be used in a more formalised or automated manner. Experts differ from novices in their ability to recognize a problem type and apply (what they perceive as) the most appropriate process.
+      Because a solution may be singular or multiple, learners much also recognise what is an appropriate solution</note>
+    <note cites="Kitchner, 1983" form="assertion" pg="67" ref="7" type="p">Puzzle problems are ones that are rigidly designed to have a single correct solution, require no background knowledge or context, and finding a solution is garunteed if the correct procedure is followed. They have been greatly studied but have
+      limited relevance to school or real-world practice</note>
+    <note cites="Greeno, 1978" form="assertion" pg="68" ref="8" type="p">Well-structured problems, like those at the end of a textbook, are used to test application of defined concepts, rules and principles and are the most commonly encountered in school and university settings. The problem space and schema is well
+      defined, making the skills aquired it less likely to be directly transferable to real-world ill-defined problems.</note>
+    <note cites="Chi and Glaser, 1985" form="assertion" pg="68-9" ref="9" type="p">Ill-structured problems are usually in a specific and 'emergent' context. One or more aspects of the problem may be ill-defined and it may not explicitly include all the information needed to solve it. This makes them more difficult but also more
+      intersting and meaningful because they are situated in everyday practice.</note>
+    <note cites="Wood, 1983" form="evidence" pg="68" ref="9" type="q">[Problems a]ppear ill-defined because one or more of the problem elements are unknown or not known with any degree of confidence</note>
+    <note cites="Kitchner, 1983" form="evidence" pg="68" ref="9" type="q">[Ill-defined problems p]ossess multiple solutions, solution paths, or no solutions at all, that is, no consensual agreement on the appropriate solution</note>
+    <note form="evidence" pg="69" ref="9" type="q">[Ill-defined problems p]resent uncertainty about which concepts, rules, and principles are necessary for the solution or how they are organized, possess relationships between concepts, rules and principles that are inconsistent between cases, offer
+      no general rules or principles for describing or predicting most of the cases, have no explicit means for determing appropriate action, [and ...] require</note>
+    <note form="assertion" pg="70-71" ref="10" type="p">Well-defined problems require solvers to either recoginize the problem type and appropriate schema (experts) or use a general problem-solving method (novices)</note>
+    <note form="evidence" pg="71" ref="10" type="q">Search processes by inexperienced or lower-ability learners tend to be haphazard and incoherent. A variety of strategies to support the search for solution have been recommended by researchers. Most are heuristic strategies that require considerable
+      skills on the part of the problem solver, which is uncertain, since most novice problem solvers are novices because they lack these strategies and problem schemas</note>
+    <note cites="Gick and Holyoak, 1980" form="definition" pg="71-72" ref="10" type="p">Recall Analogical Problems: applying a previously used process, usually the first method tried, and, if the problems are not obviously similar, usually requires explicit prompt for learners to recognise previous method as applicable.</note>
+    <note cites="Gick, 1986" form="definition" pg="72" ref="10" type="s">Means-ends analysis: The learning then chooses the 'most important difference' between the initial and goal states and selects a way of reducing the difference, before proceeding to the next most important difference. This method knows 'where its
+      going' and the solution state. The problem with this method is it hinders schema development (*inventor's paradox*)</note>
+    <note cites="Polson and Jeffries, 1985" form="definition" pg="72" ref="10" type="p">Decomposing and simplifying: Finding sub-goals: Divide problem up into achievable goals and then selects a methodology for solving each. However, like other hueristic models, it requires leaners to have a wide understanding of all possible
+      techniques, something unlikely for novices.</note>
+    <note form="definition" pg="72" ref="10" type="p">Generate/Test: The learner brainstorms and tests possible solutions; a common method for untrained learners and relies on 'gut-instinct' and general logical capabilities.</note>
+    <note form="assertion" pg="72" ref="11" type="p">Testing the generated solutions is an iterative process, succeed or retry multiple times. Identify clues from failed attempts to inform new solutions, however is difficult for learners unused to failure and requires coaching.</note>
+    <note form="assertion" pg="73" ref="12" type="q">Solving well-structured problems requires learners to identify, select, and apply relevant domain information. The concepts, principles, and procedures that are required to solve a problem (the component skills necessary to build their problem
+      scheme) should be reviewed or presented as concept and rule lessons prior to beginning the problem-solving lession.</note>
+    <note cites="Mayer, 1989" form="assertion" pg="73" ref="13" type="p">Providing visual conceptual models to learners "improves conceptual retention, reduces verbatim recall, and improves problem-solving transfer. Good models are transparent to the learners, using recognisable vocabulary and concepts</note>
+    <note cites="Robertson, 1990" form="evidence" pg="73" ref="13" type="p">Conceptual models explicitly represent structural knowledge, and the extent to which students have structural knowledge is a predictor of how well they can 'solve transfer problems', moreso than aptitute or performance on similar problems</note>
+    <note cites="Sweller and Cooper, 1985" form="assertion" pg="74-76" ref="14" type="p">Worked Examples hep learners identify problems and construct solutions through anaology. However, if it requires students to split their attention between several sources of information, it is ineffective and learners can become accustomed to
+      explicit guidance and be less likely to set own problem-solving goals.</note>
+    <note cites="Gick, 1986" form="assertion" pg="76" ref="15" type="p">Worked examples should not be created by experts but by journeymen who are competent to solve the problem, but still capable of explicitly defining the problem space</note>
+    <note cites="Chi, Feltovich and Glaser, 1981" form="evidence" pg="76" ref="15" type="q">Novices' problem schemas are based on superficial similarity among problems, whereas experts' schemas are based on solution principles</note>
+    <note cites="Simon and Simon, 1978" form="evidence" pg="76" ref="15" type="q">Expers use a "working forward" strategy (working forward from given informaiton towards the goal by choosing equations that contain the givens and solving the goal) whiel novices "work backward" (selecting equations that contain the goal and trying
+      to plug in the givins)</note>
+    <note form="evidence" pg="76" ref="15" type="q">Finally, experts' schemas contain physical descriptions of the situations, where novices describe problems only in terms of equations.</note>
+    <note cites="Cooper and Sweller, 1987" form="assertion" pg="76" ref="16" type="p">Worked examples assist students in obtaining problem solving schemas, but not in 'rule automation', which is only efficiently developed through extended practice.</note>
+    <note form="methodology" pg="77" ref="16" type="p">Present practice problems in the same format as the assessment, including use of word problems, and include all elements necessary to solve the problem. If information is purposefully excluded, make sure students are aware of how to identify missing
+      elements and where to obtain correction data. Failing to do so will likely result in misapplied/chosen schemas.</note>
+
+    <note form="" pg="" ref="" type="" cites="">
+      
+      
+  </notes>
+</record>
